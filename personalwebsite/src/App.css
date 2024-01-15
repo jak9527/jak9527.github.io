@@ -6,6 +6,79 @@
   color:#61dafb
 }
 
+.header{
+  height: 18vh;
+  width: 100%;
+  background-color: #322D33;
+  text-align: center;
+  padding-top: 0.3vh;
+}
+
+.logo{
+  font-size: 6vh;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navBar{
+  width:50%;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navLinkButton {
+  display: block;
+  width: 10vw;
+  height: 2vh;
+  background: #453152;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 2vh;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: auto;
+  float: left;
+  transition:
+    background 300ms,
+    width 300ms,
+    height 300ms;
+}
+
+.navLinkButton:hover {
+  display: block;
+  width: 10.3vw;
+  height: 2.3vh;
+  background: #604572;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 2vh;
+  margin-left:auto;
+  margin-right: auto;
+  float: left;
+}
+
+a:link{
+  color: aliceblue;
+  text-decoration: none;
+  text-size-adjust: 100;
+}
+a:visited{
+  color: aliceblue;
+  text-size-adjust: 100;
+}
+
+.AppPage{
+  align-content: center;
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
