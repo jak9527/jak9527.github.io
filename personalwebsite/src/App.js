@@ -34,17 +34,19 @@ function MyButton(){
 
 function App() {
   return (
-    <Router className="AppPage">
+    <Router>
       <div className='header'>
         <Link to="/" className='logo'>:/Jacob{'>'}</Link>
         <Navbar />
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/blog' element={<Blog />} />
-        <Route path='/projects' element={<Projects />} />
-      </Routes>
+      <div className="AppPage">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/projects' element={<Projects />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

@@ -22,6 +22,9 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:white;
   text-decoration: none;
+  width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo:hover{
@@ -93,6 +96,12 @@
 .AppPage{
   align-content: center;
   text-align: center;
+  /* background-color: #322D33; */
+  background-color: rgba(62,45,66,1);
+  background: radial-gradient(circle, rgba(50,45,51,1) 0%, rgba(62,45,66,1) 99%);
+  width: 100%;
+  height: 100vh;
+  display: block;
 }
 
 .App-logo {
