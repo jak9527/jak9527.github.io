@@ -1,0 +1,79 @@
+.Homepage{
+  display: flex;
+  background-color: #6A3875;
+  min-height: 60vh;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+.AboutSummaryComponent{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10vh;
+}
+
+.TitleLink{
+  order:2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 3.8vh;
+  font-size: 3.3vh;
+  color: azure;
+  display: block;
+  background-color: #922FA8;
+  width: 38vw;
+  height: 3.8vh;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 12vw;
+  margin-left: 30%;
+  margin-top: 20vh;
+  filter:drop-shadow(3px 3px 3px #28152c);
+  transition:all 300ms
+}
+.TitleLink:hover{
+  order:2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 3.8vh;
+  font-size: 3.3vh;
+  color: azure;
+  display: block;
+  background-color: #922FA8;
+  width: 38vw;
+  height: 3.8vh;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-decoration: none;
+  text-align: left;
+  padding-left: 12vw;
+  margin-left: 30.15%;
+  margin-top: 20.15vh;
+  filter:drop-shadow(1px 1px 1px #28152c);
+}
+
+.AboutTextComponent{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: azure;
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: 24.5vh;
+  text-align: left;
+  padding-right: 30%;
+}
+
+.HeadshotImage{
+  background-color: #28152c;
+  background-image: url("../images/barcart.jpg");
+  background-size: 18vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 50vh;
+  width: 17vw;
+  top: 25vh;
+  bottom: 0px;
+  left: 22.5vw;
+  right: 0vw;  
+}
