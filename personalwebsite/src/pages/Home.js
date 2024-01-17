@@ -21,6 +21,8 @@ function HeadshotComponent(){
 function AboutTitleComponent(){
     return (
         <div>
+            <p className='TitleText'>Hi, I'm<br></br>
+            Jacob Karvelis</p>
             <Link to="/about" className="TitleLink">About Me</Link>
         </div>
     )
