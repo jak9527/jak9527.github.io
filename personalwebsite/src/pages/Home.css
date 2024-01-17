@@ -64,7 +64,7 @@
 }
 
 .HeadshotImage{
-  background-color: #28152c;
+  /* background-color: #28152c; */
   background-image: url("../images/barcart.jpg");
   background-size: 18vw;
   background-position: center;
