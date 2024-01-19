@@ -4,7 +4,7 @@
 
   /* background-color: #6A3875; */
   background-color: #5e4b62;
-  min-height: 100vh;
+  min-height: 120vh;
   width: 80vw;
   margin-left: 10vw;
   filter:drop-shadow(0px 4px 4px #28152c);
@@ -99,7 +99,7 @@
 /* Project Summary CSS */
 .ProjectLinkBackground{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   text-align: left;
   background-color: #312f31;
   border-style: solid;
@@ -108,10 +108,10 @@
   border-radius: 2vh;
   width: 18vw;
   height: 15vh;
-  margin-top: 20vw;
-  margin-left: 8vw;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none;
-  filter: drop-shadow(1px 1px 1px #28152c);
+  filter: drop-shadow(1px 1px 2px #050205);
   overflow: hidden;
   transition:
     margin-top 300ms,
@@ -121,16 +121,12 @@
 }
 
 .ProjectLinkBackground:hover{
-  margin-top: 19.98vw;
-  margin-left: 7.98vw;
-  filter: drop-shadow(0px 0px 2px #28152c);
+  filter: drop-shadow(0px 0px 2px #050205);
   background-color: rgb(52, 50, 52);
-
-
 }
 
 .ProjectImage{
-  max-width: 80%;
+  max-width: 30%;
   max-height: 80%;
   margin-top: auto;
   margin-bottom: auto;
@@ -154,4 +150,26 @@
   padding-left: 0vw;
   font-size: small;
   margin-top: -1.5vh;
+}
+
+.ProjectSummaryBackground{
+  display: flex;
+  width: 80vw;
+  height: 50vh;
+  margin-top: 20vw;
+  padding-top: 0%;
+  background-color: #28152c;
+}
+
+.ProjectLinkContainer{
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ProjectSummaryTitle{
+  color: aliceblue;
+  font-size: 4vw;
+  text-decoration: none;
 }

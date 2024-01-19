@@ -104,7 +104,8 @@
   /* background: radial-gradient(circle, rgba(50,45,51,1) 0%, rgba(62,45,66,1) 99%); */
   background: radial-gradient(circle, #39333b 0%, #312f31 99%);
   width: 100%;
-  height: 110vh;
+  padding-bottom: 8%;
+  min-height: 70vh;
   display: block;
 }
 
