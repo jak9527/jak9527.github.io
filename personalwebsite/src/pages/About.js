@@ -70,7 +70,7 @@ function PersonalSection(){
                         Company.
                     </p>
                     <p>
-                        I've also hikes lots of pretty places. Being from Connecticut, I had access to a lot of beautiful mountains in driving distance.
+                        I've also hiked lots of pretty places. Being from Connecticut, I had access to a lot of beautiful mountains in driving distance.
                         One classic hike in CT is Talcott mountain. I don't have many pictures but if you look it up you're sure to find some gorgeous
                         views. I've also visited Acadia National Park a few times, and have hiked most of the mountains there, and I've even been the
                         first person in the continental United States to see the sun rise (Ask me about it!!!).
