@@ -45,7 +45,7 @@ function AboutTextComponent(){
  *                  description, as well as the actual link
  * @returns 
  */
-function ProjectLinkComponent(props){
+export function ProjectLinkComponent(props){
     return(
         <a className='ProjectLinkBackground' href={props.url} target="_blank" rel="noreferrer">
             <img className='ProjectImage' src={props.image} alt='bing'></img>
