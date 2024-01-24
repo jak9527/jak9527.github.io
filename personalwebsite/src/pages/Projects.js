@@ -28,7 +28,7 @@ function ProjectsBoard(){
                         title="Personal Website"
                         description="You're on it right now, and they say a picture speaks a thousand words. Are they good ones?"
                         image="https://media.discordapp.net/attachments/1049383116302729368/1198018168657031268/Webapp.png?ex=65bd605d&is=65aaeb5d&hm=95b5bb3977c090cc39b3d67d6e82aa693070eb0d58234db22e2c01a038ec20ff&=&format=webp&quality=lossless&width=522&height=668"
-                        url="https://github.com/jak9527/Customizable_Game_Puzzle_Solver"/></div>
+                        url="https://github.com/jak9527/jak9527.github.io"/></div>
                 </div>
                 <hr style={{width: "100%", color: "#676367;"}}></hr>
             </div>
