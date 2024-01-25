@@ -442,7 +442,7 @@
 
 .ProjectTitle{
   color: #8f509d;
-  padding-left: 0vw;
+  /* padding-left: 0vw; */
   font-size: large;
 }
 
@@ -474,6 +474,13 @@
 
 .ProjectSummaryTitle{
   color: aliceblue;
-  font-size: 4vw;
+  font-size: 300%;
   text-decoration: none;
+}
+
+.ProjectLinkHolder{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
 }
