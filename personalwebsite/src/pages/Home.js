@@ -6,11 +6,14 @@ import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 // About Summary Components
 function AboutSummary(){
     return (
-        <div className='AboutSummaryComponent'>
-            <HeadshotComponent />
-            <AboutTitleComponent />
-            <AboutTextComponent />
+        <div style={{display:"flex"}}>
+            <div className='AboutSummaryGrid'>
+                <HeadshotComponent />
+                <AboutTitleComponent />
+                <AboutTextComponent />
+            </div>
         </div>
+        
     )
 }
 
@@ -22,7 +25,7 @@ function HeadshotComponent(){
 
 function AboutTitleComponent(){
     return (
-        <div>
+        <div style={{width:"100%"}}>
             <p className='TitleText'>Hi, I'm<br></br>
             Jacob Karvelis</p>
             <Link to="/about" className="TitleLink">About Me</Link>

@@ -23,89 +23,353 @@
 
 
 /* About Summary CSS */
+@media screen and (max-width: 1920px){
+  .AboutSummaryGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .AboutSummaryGrid div{
+    /* padding: 50px; */
+    grid-row-start: 1;
+    grid-column-start: 1;
+  }
 
-.AboutSummaryComponent{
-  display: flex;
-  width: fit-content;
-  height: fit-content;
-  margin-top: 0vh;
+  .TitleText{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    margin-left: 42%;
+    text-align: left;
+    /* margin-top: 10vh; */
+    color: azure;
+  }
+
+  .TitleLink{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    font-size: 3.3vh;
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    width: 32vw;
+    height: 3.8vh;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    margin-left: 30%;
+    margin-top: -7%;
+    filter:drop-shadow(3px 3px 3px #28152c);
+    transition:all 300ms
+  }
+  .TitleLink:hover{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    /* font-size: 3.3vh; */
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    /* width: 32vw; */
+    /* height: 3.8vh; */
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    /* margin-left: 30.15%; */
+    /* margin-top: -9.15vh; */
+    filter:drop-shadow(1px 1px 1px #28152c);
+  }
+
+  .AboutTextComponent{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    /* position: absolute; */
+    margin-left: 42%;
+    margin-top: 21%;
+    text-align: left;
+    /* padding-right: 20%; */
+  }
+
+  .HeadshotImage{
+    /* background-color: #28152c; */
+    background-image: url("../images/barcart.jpg");
+    background-size: 18vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    margin-left: 20%;
+    max-height: 110%;
+    max-width: 21%;
+    /* top: 5vh;
+    bottom: 0px;
+    left: 12.5vw;
+    right: 0vw;   */
+  }
+}
+@media screen and (max-width: 1510px) {
+  .TitleText{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-left: 42%;
+    text-align: left;
+    /* margin-top: 10vh; */
+    color: azure;
+  }
+
+  .TitleLink{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    font-size: 3.3vh;
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    width: 32vw;
+    height: 3.8vh;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    margin-left: 30%;
+    margin-top: -6%;
+    filter:drop-shadow(3px 3px 3px #28152c);
+    transition:all 300ms
+  }
+  .TitleLink:hover{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    /* font-size: 3.3vh; */
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    /* width: 32vw; */
+    /* height: 3.8vh; */
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    /* margin-left: 30.15%; */
+    /* margin-top: -9.15vh; */
+    filter:drop-shadow(1px 1px 1px #28152c);
+  }
+
+  .AboutTextComponent{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    /* position: absolute; */
+    margin-left: 42%;
+    margin-top: 20%;
+    text-align: left;
+    /* padding-right: 20%; */
+  }
 }
 
-.TitleText{
-  font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 8vh;
-  padding-left: 30vw;
-  text-align: left;
-  margin-top: 10vh;
-  color: azure;
+@media screen and (max-width: 1500px) {
+  .TitleText{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-left: 42%;
+    text-align: left;
+    margin-top: 120px;
+    color: azure;
+  }
 
+  .TitleLink{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    font-size: 3.3vh;
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    width: 32vw;
+    height: 3.8vh;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    margin-left: 30%;
+    margin-top: -40px;
+    margin-bottom: auto;
+    filter:drop-shadow(3px 3px 3px #28152c);
+    transition:all 300ms
+  }
+  .TitleLink:hover{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    /* font-size: 3.3vh; */
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    /* width: 32vw; */
+    /* height: 3.8vh; */
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    /* margin-left: 30.15%; */
+    /* margin-top: -9.15vh; */
+    filter:drop-shadow(1px 1px 1px #28152c);
+  }
+
+  .AboutTextComponent{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    /* position: absolute; */
+    margin-left: 42%;
+    margin-top: 250px;
+    margin-bottom:auto;
+    text-align: left;
+    /* padding-right: 20%; */
+  }
 }
 
-.TitleLink{
-  order:2;
-  font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  line-height: 3.8vh;
-  font-size: 3.3vh;
-  color: azure;
-  display: block;
-  /* background-color: #922FA8; */
-  background-color: #8f509d;
-  width: 32vw;
-  height: 3.8vh;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  text-decoration: none;
-  text-align: left;
-  padding-left: 12vw;
-  margin-left: 30%;
-  margin-top: -9vh;
-  filter:drop-shadow(3px 3px 3px #28152c);
-  transition:all 300ms
-}
-.TitleLink:hover{
-  order:2;
-  font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  line-height: 3.8vh;
-  font-size: 3.3vh;
-  color: azure;
-  display: block;
-  /* background-color: #922FA8; */
-  background-color: #8f509d;
-  width: 32vw;
-  height: 3.8vh;
-  border-bottom-left-radius: 5px;
-  border-top-right-radius: 5px;
-  text-decoration: none;
-  text-align: left;
-  padding-left: 12vw;
-  margin-left: 30.15%;
-  margin-top: -9.15vh;
-  filter:drop-shadow(1px 1px 1px #28152c);
+@media screen and (max-width: 800px) {
+  .TitleText{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 42%;
+    text-align: left;
+    margin-top: 150px;
+    color: azure;
+  }
+
+  .TitleLink{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    font-size: 3.3vh;
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    width: 32vw;
+    height: 3.8vh;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    margin-left: 30%;
+    margin-top: -30px;
+    margin-bottom: auto;
+    filter:drop-shadow(3px 3px 3px #28152c);
+    transition:all 300ms
+  }
+  .TitleLink:hover{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    /* font-size: 3.3vh; */
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    /* width: 32vw; */
+    /* height: 3.8vh; */
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    /* margin-left: 30.15%; */
+    /* margin-top: -9.15vh; */
+    filter:drop-shadow(1px 1px 1px #28152c);
+  }
+
+  .AboutTextComponent{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+    /* position: absolute; */
+    margin-left: 42%;
+    margin-top: 250px;
+    margin-bottom:auto;
+    text-align: left;
+    /* padding-right: 20%; */
+  }
 }
 
-.AboutTextComponent{
-  font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: azure;
-  position: absolute;
-  margin-left: 30vw;
-  margin-top: 32.5vh;
-  text-align: left;
-  padding-right: 20%;
+@media screen and (max-width: 600px) {
+  .TitleText{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 42%;
+    text-align: left;
+    margin-top: 160px;
+    color: azure;
+  }
+
+  .TitleLink{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    font-size: 3.3vh;
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    width: 32vw;
+    height: 3.8vh;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    margin-left: 30%;
+    margin-top: -20px;
+    margin-bottom: auto;
+    filter:drop-shadow(3px 3px 3px #28152c);
+    transition:all 300ms
+  }
+
+  .HeadshotImage{
+    /* background-color: #28152c; */
+    background-image: url("../images/barcart.jpg");
+    background-size: 27vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    height: 350px;
+    max-width: 35%;
+    /* top: 5vh;
+    bottom: 0px;
+    left: 12.5vw;
+    right: 0vw;   */
+  }
 }
 
-.HeadshotImage{
-  /* background-color: #28152c; */
-  background-image: url("../images/barcart.jpg");
-  background-size: 18vw;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 50vh;
-  width: 17vw;
-  top: 5vh;
-  bottom: 0px;
-  left: 12.5vw;
-  right: 0vw;  
+@media screen and (max-width: 475px) {
+  .TitleText{
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-left: 42%;
+    text-align: left;
+    margin-top: 160px;
+    color: azure;
+  }
 }
 
 /* Project Summary CSS */
@@ -173,7 +437,7 @@
   height: fit-content;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-top: 20vw;
+  margin-top: 40px;
   /* padding-top: 0%; */
   background-color: #28152c;
 }
