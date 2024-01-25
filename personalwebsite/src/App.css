@@ -44,38 +44,46 @@
     content: \:/Jacob\>;
   }
 }
-
-.navBar{
-  width:80%;
-  text-align: center;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3vh;
-  margin-bottom: 0vh;
-  overflow: hidden;
+@media screen and (max-width: 1920px) {
+  .navBar{
+    width:80%;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    overflow: hidden;
+  }
+  
+  .navLinkButton {
+    display: block;
+    width: 10vw;
+    height: 2vh;
+    /* background: #453152; */
+    background: #5e4b62;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 2vh;
+    margin-left:auto;
+    margin-right: auto;
+    float: left;
+    transition:
+      background 300ms,
+      width 300ms,
+      height 300ms;
+  }
 }
 
-.navLinkButton {
-  display: block;
-  width: 10vw;
-  height: 2vh;
-  /* background: #453152; */
-  background: #5e4b62;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  line-height: 2vh;
-  margin-left:auto;
-  margin-right: auto;
-  float: left;
-  transition:
-    background 300ms,
-    width 300ms,
-    height 300ms;
+
+@media  screen and (max-width: 800px) {
+  .navLinkButton{
+    font-size: 14px;
+  }
 }
 
 .navLinkButton:hover {
