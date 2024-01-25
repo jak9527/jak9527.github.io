@@ -370,6 +370,28 @@
     margin-top: 160px;
     color: azure;
   }
+  .TitleLink{
+    order:2;
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 3.8vh; */
+    font-size: 3.3vh;
+    color: azure;
+    display: block;
+    /* background-color: #922FA8; */
+    background-color: #8f509d;
+    width: 38vw;
+    height: 3.8vh;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 12vw;
+    margin-left: 30%;
+    margin-top: -20px;
+    margin-bottom: auto;
+    filter:drop-shadow(3px 3px 3px #28152c);
+    transition:all 300ms
+  }
 }
 
 /* Project Summary CSS */
