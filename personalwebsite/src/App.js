@@ -37,7 +37,9 @@ function App() {
   return (
     <Router>
       <div className='header'>
-        <Link to="/" className='logo'>:/Jacob{'>'}</Link>
+        <div style={{marginLeft:'auto', marginRight:'auto', textAlign:"left", width:"250px"}}>
+          <Link to="/" className='logo'><span>:/Jacob{'>'}</span></Link>
+        </div>
         <Navbar />
       </div>
       <div className="AppPage">

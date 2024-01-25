@@ -7,51 +7,59 @@
 }
 
 .header{
-  height: 16.5vh;
+  /* height: 16.5vh; */
   width: 100%;
   background: rgb(50,45,51);
   /* background: radial-gradient(circle, rgba(50,45,51,1) 0%, rgba(62,45,66,1) 99%); */
   background: radial-gradient(circle, #39333b 0%, #312f31 99%);
   text-align: center;
   padding-top: 3vh;
+  padding-bottom: 10px;
   display: grid;
   row-gap: 1vh;
 }
 
 .logo{
-  font-size: 6vh;
+  font-size: 280%;
   font-family:'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:white;
   text-decoration: none;
   width:fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
-.logo:hover{
-  font-size: 6vh;  
+.logo:hover span{
+  display: none;
+  /* font-size: 6vh;  
   font-family:'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:white;
-  text-decoration: none;
+  text-decoration: none; */
+  /* animation: blink 1s linear infinite; */
+}
+
+.logo:hover::before{
+  content: ":/Jacob>_";
   animation: blink 1s linear infinite;
 }
 
 @keyframes blink{
   0%{
-    content: \:/Jacob\>_;
+    content: ":/Jacob>_";
   }
   100%{
-    content: \:/Jacob\>;
+    content: ":/Jacob>";
   }
 }
 @media screen and (max-width: 1920px) {
   .navBar{
     width:80%;
+    /* border-style: solid; */
     text-align: center;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
     margin-bottom: 0vh;
     overflow: hidden;
   }
@@ -59,7 +67,7 @@
   .navLinkButton {
     display: block;
     width: 15%;
-    height: 2vh;
+    height: 40%;
     /* background: #453152; */
     background: #5e4b62;
     padding: 10px;
@@ -88,8 +96,8 @@
 
 .navLinkButton:hover {
   display: block;
-  width: 10.3vw;
-  height: 2.3vh;
+  width: 17%;
+  height: 60%;
   background: #5e4b62;
   /* background: #604572; */
   padding: 10px;
