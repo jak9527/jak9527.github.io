@@ -23,7 +23,7 @@
 
 
 /* About Summary CSS */
-@media screen and (max-width: 1920px){
+@media screen and (max-width: 10920px){
   .AboutSummaryGrid{
     display: grid;
     grid-template-columns: 1fr;

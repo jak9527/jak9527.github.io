@@ -51,7 +51,7 @@
     content: ":/Jacob>";
   }
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 10920px) {
   .navBar{
     width:80%;
     /* border-style: solid; */
