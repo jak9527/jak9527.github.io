@@ -49,7 +49,7 @@ function PersonalSection(){
             <div style={{margin:'auto', width:'80%', textAlign:"left"}}>
                 <h1>About Me: Personally</h1>
                 <p>
-                    <img src='https://media.discordapp.net/attachments/1049383116302729368/1196939405965918288/20231219_211126.jpg?ex=65b973b0&is=65a6feb0&hm=7d0cdc4e84f749a0a69e4de9a385074b9f4856f008107f175e03c8caa8866bb2&=&format=webp&width=507&height=676'
+                    <img src={require("../images/barcart.jpg")}
                         alt = 'bing' align="left" hspace="20px" vspace="10px" style={{maxWidth:"30%"}}/>
                     <p>
                         I'm still Jacob, but I'm a little more relaxed now, haha. I use Any/All pronouns and I am a non-binary person.
