@@ -10,8 +10,8 @@ function EducationSection(){
                 <p>
                     <img src='https://www.thoughtco.com/thmb/Kcc7pWog_NLfFlXh95qMNDRNMLM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/DramaticPerspective_0005-5364394aec3643c18086f16e475c84b2.jpg'
                     alt = 'bing' align="left" hspace="20px" style={{maxWidth:"30%"}}/>
-                    <p>Hi! I'm Jacob Karvelis. I am a student at the Rochester Institute of Technology
-                        persuing a BS in Computer Science. I have completed a wide variety of classes here at
+                    <p>Hi! I'm Jacob Karvelis. I am a graduate from the Rochester Institute of Technology,
+                        where I obtained a BS in Computer Science. I have completed a wide variety of classes here at
                         RIT, many of which you can find on my <a className='inlineLink' href='https://docs.google.com/document/d/1rdM1jjWaU8nKLnmD517KlrZvQn4_5CG53vU_UKtSd2s/edit?usp=sharing'>resume</a>
                         . I have an interest in AI, Graphics,
                         and Data Management. I have projects relating to some of these topics, which you can
@@ -20,8 +20,8 @@ function EducationSection(){
                         I also built this website using React, hosted on GitHub pages. You can find the source for it in
                         this <a className='inlineLink' href='https://github.com/jak9527/jak9527.github.io'>repository</a>.
                     </p>
-                        Outside of Computer Science, I am doing a Minor in Criminal Justice. I've taken classes on minority issues in the
-                        criminal justice system, corrections, and about prostitution and vice. 
+                        Outside of Computer Science, I completed a Minor in Criminal Justice. I've taken classes on minority issues in the
+                        criminal justice system, corrections, policing, and about prostitution and vice. 
                     <p>
                                        
                     </p>
@@ -65,9 +65,7 @@ function PersonalSection(){
                         the Dead, and Nemo.
                     </p>
                     <p>
-                        Some games I'm currently playing include Minecraft (going on like 10 years now, so mods play a big role. You can check out one
-                        I'm making <a className='inlineLink' href='https://github.com/jak9527/Slimecrafter'>here</a>), 7 Days to Die, and Lethal 
-                        Company.
+                        Some games I'm currently playing include, 7 Days to Die, and Fallout: New Vegas
                     </p>
                     <p>
                         I've also hiked lots of pretty places. Being from Connecticut, I had access to a lot of beautiful mountains in driving distance.

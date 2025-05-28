@@ -36,7 +36,7 @@ function AboutTitleComponent(){
 function AboutTextComponent(){
     return (
         <div className='AboutTextComponent'>
-            Hi! I'm Jacob Karvelis, a Computer Science Major at RIT. I have an interest in AI, Graphics, and Data Management.
+            Hi! I'm Jacob Karvelis, a Computer Science graduate from RIT. I have an interest in AI, Graphics, and Data Management.
         </div>
     )
 }  
@@ -86,7 +86,7 @@ function ProjectSummaryComponent(){
                     </div> 
                 </div>
                 <hr style={{width: "80%", color: "#676367;"}}/>
-                <p>For more projects, please see the projects page</p>
+                <p style={{color:'white'}}>For more projects, please see the projects page</p>
             </div>
             
         </div>

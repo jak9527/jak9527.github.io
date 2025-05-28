@@ -8,6 +8,7 @@ import About from './pages/About';
 import Blog from "./pages/Blog";
 import Projects from "./pages/Projects"
 import Construction from './pages/Construction';
+import Sound from './pages/Sound';
 
 function Navbar () {
   return (
@@ -15,7 +16,7 @@ function Navbar () {
         <Link to="/" className='navLinkButton'>Home</Link>
         <Link to="/about" className='navLinkButton'>About</Link>
         <Link to="/projects" className='navLinkButton'>Projects</Link>
-        <Link to="/blog" className='navLinkButton'>Blog</Link>
+        <Link to="/sound" className='navLinkButton'>Need a Sound Person?</Link>
       </div>
    )
 }
@@ -47,7 +48,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/about' element={<About />} />
           {/* <Route path='/blog' element={<Blog />} /> */}
-          <Route path='/blog' element={<Construction />} />
+          <Route path='/sound' element={<Sound />} />
           <Route path='/projects' element={<Projects />} />
         </Routes>
       </div>
